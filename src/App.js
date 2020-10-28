@@ -29,10 +29,6 @@ const App = () => {
    */
   const orderNumber = `ORDER-${Math.floor(Math.random() * 9999)}`
 
-  /**
-   * Customer should be fetched from your webshop using all the information
-   * available. At least the first and last names should be specified.
-   */
   const customer = {
     firstName: 'Alice',
     lastName: 'Angel',
